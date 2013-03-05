@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KAF Consulting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="http://54.235.81.12/">KAF Consulting/RageCo</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="http://www.kaf.com.mx">About</a></li>
+              <li><a href="mailto:hector.mendoza@kaf.com.mx">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Options<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">foo</a></li>
+                  <li><a href="#">Another foo</a></li>
+                  <li><a href="#">Something else here as a foo</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Sites</li>
+                  <li><a href="/mantis">Mantis</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Hello, nigga!</h1>
+        <p>If you are looking for a good design, lightweight and userful tool to manage issues and horrible bugs that cause you nightmares, don't hesiate in look for another site just take a look to <a href="http://www.mantisbt.org/">Mantis</a>, bored about fancy sites, ha! this is for you!</p>
+        <p><a href="/mantis" class="btn btn-primary btn-large">Take me there, now! &raquo;</a></p>
+      </div>
+    </div>
+
+  <div class="modal hide fade" id="myModal">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3>Modal header</h3>
+    </div>
+    <div class="modal-body">
+      <p>One fine body…</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn" data-toggle="modal" data-target="#myModal">Close</a>
+      <a href="#" class="btn btn-primary" onclick="saveData()" >Save changes</a>
+    </div>
+  </div>
+  <script type="text/javascript">
+    function saveData(){
+      $('#myModal').modal('hide');
+    }
+  </script>
+  </body>
+</html>
