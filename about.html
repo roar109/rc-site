@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RageCo.</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+     <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-narrow">
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+          <li><a href="#aboutModal" data-toggle="modal" role="button">Contact</a></li>
+          <li><a href="/mantis">Mantis</a></li>
+        </ul>
+        <h3 class="muted">Rage Co</h3>
+      </div>
+      <hr>
+     	<div align="center">
+            <div class="tabbable tabs-left">
+              <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#bioTab">Bio</a></li>
+                <li><a data-toggle="tab" href="#socialTab">Social</a></li>
+                <li><a data-toggle="tab" href="#projTab">Project</a></li>
+              </ul>
+              <div class="tab-content">
+                <div id="bioTab" class="tab-pane active">
+                  <div class="pagination pagination-left">
+                    <p class="muted">
+                        I'm a software engineer since a few years ago, I like all technology releated stuffs from hardware to complex algorithms that could cause you nightmares all day long, so, why I would like doing that if is so complicated and each day is constantly going on?, well, because I think that this world just could be better, faster and smarter.
+                    </p>
+                    <p class="muted">
+                        ...
+                    </p>
+                  </div>
+                </div>
+                <div id="socialTab" class="tab-pane" align="left" >
+                  <table class="table">
+                    <tr>
+                      <td><p class="muted">Facebook</p></td>
+                      <td><a href="http://www.facebook.com/hmnicanor" class="btn btn-primary" target="_blank">hmnicanor</a></td>
+                      <td><p class="text-info">Twitter</p></td>
+                      <td><a href="http://www.twitter.com/roar109" class="btn btn-info" target="_blank">@roar109</a></td>
+                    </tr>
+                    <tr>
+                      <td><p class="muted">LinkedIn</p></td>
+                      <td><a href="http://mx.linkedin.com/in/hectormendoza/" class="btn btn-primary" target="_blank">Hector Mendoza</a></td>
+                      <td><p class="text-info">Google+</p></td>
+                      <td><a href="https://plus.google.com/u/0/115051542261450889349/" class="btn btn-info" target="_blank">roar109</a></td>
+                    </tr>
+                  </table>
+                </div>
+                <div id="projTab" class="tab-pane">
+                    <div class="pagination pagination-centered">
+                      <a href="https://github.com/roar109" class="btn btn-info" target="_blank">Look at Github</a>
+                    </div>
+                </div>
+              </div>
+          </div>
+     	</div>
+
+        <!-- Modal about -->
+      <div class="modal hide fade" id="aboutModal" >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3>About</h3>
+        </div>
+        <div class="modal-body">
+          <p>Shot me an email at <a href="mailto:hector.mendoza@kaf.com.mx">hector.mendoza@kaf.com.mx</a>, but because I don't like beer you can buy me a Coke :D</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#aboutModal" class="btn" data-dismiss="modal">Close</a>
+      </div>
+    </div>
+
+	 </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
